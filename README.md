@@ -36,7 +36,7 @@ This analytics platform processes crime incident data across Illinois' 102 count
 3. **Public Safety:** Community awareness through transparent crime analytics
 4. **Higher Education:** Campus safety analysis for university administrators
 
-**Relevance to UIS:** This project demonstrates institutional research capabilities essential for OIRE Data Analyst positions, with direct applications to campus safety analytics and data-driven reporting.
+**Relevance to UIS:** This project demonstrates institutional research capabilities essential for OIRE Data Analyst positions, with direct applications to data-driven reporting and analysis.
 
 ---
 
