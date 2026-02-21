@@ -81,6 +81,9 @@ class CrimeForecastModel:
         
         logger.info(f"Fitting ARIMA{self.order} on {len(data)} observations")
         
+        # TODO: Add auto-selection of ARIMA parameters (p, d, q)
+        # TODO: Consider SARIMA for seasonal patterns
+        
         try:
             # Fit ARIMA model
             self.model = ARIMA(data, order=self.order)
@@ -89,10 +92,15 @@ class CrimeForecastModel:
             # Store fitted values for evaluation
             self._fitted_values = self.model.fittedvalues
             
+            # Debug: Check if model converged properly
+            # print(f"DEBUG: AIC={self.model.aic}, BIC={self.model.bic}")
+            
             logger.info(f"Model fitted successfully. AIC: {self.model.aic:.2f}")
             
         except Exception as e:
             logger.error(f"Failed to fit model: {str(e)}")
+            # NOTE: Sometimes convergence fails with certain parameter combinations
+            # Try adjusting order or use more data if this happens
             raise
         
         return self
