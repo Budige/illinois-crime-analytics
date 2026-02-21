@@ -1,0 +1,27 @@
+# Illinois Crime Analytics - Python Dependencies
+# Author: Rakesh Budige
+# Created: January 2025
+
+# Data Processing
+pandas==2.1.4
+numpy==1.26.2
+
+# Database
+psycopg2-binary==2.9.9
+SQLAlchemy==2.0.23
+
+# Time Series Analysis
+statsmodels==0.14.1
+scipy==1.11.4
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# Utilities
+python-dotenv==1.0.0
+requests==2.31.0
+
+# Jupyter
+jupyter==1.0.0
+ipykernel==6.27.1
