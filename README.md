@@ -14,7 +14,9 @@
 
 ## 📊 Project Overview
 
-This project analyzes **50,000+ crime records** across Illinois' 102 counties using real data from the Illinois State Police Uniform Crime Reporting (I-UCR) program. The platform demonstrates end-to-end data pipeline development, advanced SQL analytics, ARIMA time-series forecasting, and interactive visualization for stakeholder insights.
+> **Note:** This project was developed as part of my MS Computer Science studies at UIS to demonstrate data analytics capabilities. I created a representative sample dataset based on Illinois crime patterns to showcase SQL, Python, and analytical skills relevant to institutional research positions.
+
+This analytics platform processes crime incident data across Illinois' 102 counties, demonstrating end-to-end data pipeline development, advanced SQL analytics, ARIMA time-series forecasting, and interactive visualization techniques.
 
 ### **Key Highlights**
 
@@ -249,13 +251,19 @@ FROM (
 
 ## 🎓 What I Learned
 
-Building this project taught me several important lessons:
+Building this project over the past few weeks taught me several important lessons:
 
-1. **Data Quality is Critical** - Spent 30% of time on data validation and cleaning
-2. **ARIMA Challenges** - Seasonality detection is tricky; considering SARIMA for future iterations
-3. **SQL Optimization** - Window functions dramatically improve query readability vs subqueries
-4. **Power BI Integration** - Denormalized exports work better than direct database connections
-5. **Documentation Matters** - Clear README and inline comments save hours during interviews
+1. **Data Quality is Everything** - I probably spent 30% of my time just on data validation and cleaning. Worth it though.
+
+2. **ARIMA is Tricky** - Getting the seasonality right was harder than expected. Still think I need to explore SARIMA for better seasonal patterns. TODO for next iteration.
+
+3. **SQL Window Functions are Powerful** - Once I figured out LAG and PARTITION BY, my queries got so much cleaner. Way better than nested subqueries.
+
+4. **Power BI Takes Time** - Creating dashboards that actually make sense to non-technical people is an art. Had to redo mine 3 times before it looked decent.
+
+5. **Documentation Matters** - Started writing the README at the end, realized I should have been documenting as I went. Lesson learned for next project.
+
+**Biggest Challenge:** Honestly, the ARIMA model convergence. Had to mess with the parameters quite a bit before getting reasonable MAPE scores. The (2,1,2) order worked but I'm sure there's better configurations out there.
 
 ---
 
