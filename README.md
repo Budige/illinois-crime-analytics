@@ -327,7 +327,7 @@ Specialization: Data Analytics | Data Engineering
 ## 📞 Contact
 
 Questions about this project? Reach out:
-- Email: [your.email@example.com](#)
+- Email: [rakeshrohanbudige@outlook.com](rakeshrohanbudige@outlook.com)
 - Project Issues: [GitHub Issues](https://github.com/Budige/illinois-crime-analytics/issues)
 
 ---
